@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+body {
+  background-color: #e9e0e0;
+  /* border:2px solid #bb3434; */
+
+}
+
+html {
+  font-family: "Climate Crisis", cursive;
+  color: #1d1b1b72;
+}
+
+.navbar {
+  border: 2px solid #efa7a7;
+  width: 60rem;
+  height: auto;
+  margin-left: 9rem;
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  background: #efa7a7;
+  position: sticky;
+  box-shadow: 5px 5px 5px 10px #bb3434;
+}
+
+.title {
+  padding-left: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #111;
+}
+.navbar ul li a:hover {
+  color: #bb3434;
+
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.7s;
+  text-shadow: 5px 4px 3px #bb3434;
+}
+.navbar ul li:last-child {
+  padding-right: 5rem;
+}
+.navbar ul li {
+  list-style-type: none;
+  float: left;
+  padding-left: 5rem;
+}
+.picture {
+  width: 15rem;
+  height: auto;
+  margin-top: 5rem;
+  margin-left: 30rem;
+  border: 2px solid #bb3434;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #bb3434;
+}
+
+.aboutMe::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.aboutMe {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 90px;
+  text-align: center;
+  /* border: 2px solid #bb3434; */
+  margin-left:140px;
+  margin-bottom: 100px;
+}
+
+.egitim{
+    margin-left:200px;
+    height:auto;
+    
+}
+.meTitle {
+}
+.card-text li{
+    list-style-type:  none;
+}
+.cardRight{
+    margin-left:150px;
+    
+}
+.example-bar{
+    text-align: center;
+    font-family: 'Climate Crisis', cursive;
+font-family: 'Comme', sans-serif;
+font-family: 'Golos Text', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Single Day', cursive;
+
+font-weight: bold;
+}
+.footer-by{
+    text-align: center;
+}
+.iletisim-icon{
+  list-style-type: none;
+  padding:50px;
+  padding-left:450px;
+
+
+}
+.i-icon{
+  float: left;
+  padding: 10px;
+  
+
+}
+.i-icon a{
+  text-decoration:none;
+  color:#111;
+  font-size: 20px;
+}
